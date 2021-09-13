@@ -1,0 +1,47 @@
+body {
+    color: #c4cad0;
+    background-color: #2e4057;
+}
+
+.section {
+    margin-top: 2em;
+}
+
+.navbar {
+    box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 2%);
+}
+
+.bg-light {
+    background-color: #35475f !important;
+}
+
+.form-control {
+
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #c4cad0;
+    background-color: #53657b;
+    background-clip: padding-box;
+    border: 1px solid #798da7;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.card {
+    background-color: #53657b;
+}
+
+.text-muted {
+    color: #bfd7ef !important;
+}
+
+.form-control:focus {
+    color: #c4cad0;
+    background-color: #42556d;
+    border-color: #798da7;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}
